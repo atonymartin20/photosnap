@@ -49,7 +49,7 @@ class Features extends React.Component {
                         </div>
 
                         <div>
-                            <img src={EmbedIMG} alt='Embed image' />
+                            <img src={EmbedIMG} alt='Embed icon' />
                             <h3>Available to Embed</h3>
                             <span>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google 
                                 Maps, and more.
@@ -57,7 +57,7 @@ class Features extends React.Component {
                         </div>
 
                         <div>
-                            <img src={CustomDomainIMG} alt='Custom domain image' />
+                            <img src={CustomDomainIMG} alt='Custom domain icon' />
                             <h3>Custom Domain</h3>
                             <span>With Photosnap subscriptions you can host your stories on your own domain. You can 
                                 also remove our branding!
@@ -65,7 +65,7 @@ class Features extends React.Component {
                         </div>
 
                         <div>
-                            <img src={BoostExposureIMG} alt='Boost your exposure image' />
+                            <img src={BoostExposureIMG} alt='Boost your exposure icon' />
                             <h3>Boost Your Exposure</h3>
                             <span>Users that viewed your story or gallery can easily get notifed of new and featured 
                                 stories with our built in mailing list.
@@ -73,7 +73,7 @@ class Features extends React.Component {
                         </div>
 
                         <div>
-                            <img src={DragDropIMG} alt='Drag and drop image' />
+                            <img src={DragDropIMG} alt='Drag and drop icon' />
                             <h3>Drag &amp; Drop Image</h3>
                             <span>Easily drag and drop your image and get beautiful shots everytime. No over the top 
                                 tooling to add friction to creating stories.
