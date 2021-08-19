@@ -4,6 +4,8 @@ import Logo from '../../assets/shared/desktop/logo.svg';
 import Hamburger from '../../assets/shared/mobile/menu.svg';
 import CloseIcon from '../../assets/shared/mobile/close.svg';
 
+import '../../css/navbar.css';
+
 class Navbar extends React.Component {
     state={
         drawerOpen: false,    
@@ -25,10 +27,10 @@ class Navbar extends React.Component {
 
     render () {
         return (
-            <div>
-                <div>
+            <div className='navbar-outside-container'>
+                <div className='navbar-inside-container-large'>
                     {/* desktop */}
-                    <NavLink to='/'>
+                    <NavLink to='/' className='logo'>
                         <img src={Logo} alt='Photosnap' />
                     </NavLink>
 
@@ -44,14 +46,14 @@ class Navbar extends React.Component {
                         <NavLink to='/pricing'>
                             Pricing
                         </NavLink>
-
-                        <NavLink to='/'>
-                            Get an invite
-                        </NavLink>
                     </nav>
+
+                    <NavLink to='/' className='invite-button'>
+                        Get an invite
+                    </NavLink>
                 </div>
 
-                <div>
+                <div className='navbar-inside-container-small'>
                     {/* mobile */}
                     <div>
                         <NavLink to='/'>
