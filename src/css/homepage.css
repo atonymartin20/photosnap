@@ -1,0 +1,9 @@
+.homepage-outside-container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.homepage-inside-container {
+    display: flex;
+    flex-direction: column;
+}
