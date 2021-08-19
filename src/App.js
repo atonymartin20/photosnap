@@ -6,6 +6,7 @@ import Homepage from './components/homepage';
 import Pricing from './components/pricing';
 import Stories from './components/stories';
 
+import './App.css';
 class App extends React.Component {
 	render () {
 		return (
