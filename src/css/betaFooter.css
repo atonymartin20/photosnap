@@ -55,3 +55,67 @@
 .inside-beta-footer-container a img {
     margin-left: 16px;
 }
+
+@media (min-width: 376px) {
+    .outside-beta-footer-container {
+        background-image: url('../assets/shared/tablet/bg-beta.jpg');
+    }
+}
+
+@media (min-width: 550px) {
+    .outside-beta-footer-container {
+        flex-direction: row;
+        height: 280px;
+        padding: 0px;
+    }
+
+    .beta-footer-gradient-div {
+        width: 6px;
+        height: 280px;
+        background: linear-gradient(1.3deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    }
+
+    .inside-beta-footer-container {
+        flex-direction: row;
+        margin-top: 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .inside-beta-footer-container h1 {
+        font-size: 4.0rem;
+        line-height: 48px;
+        letter-spacing: 4.16667px;
+        margin-left: 10px;
+        width: 350px;
+    }
+
+    .inside-beta-footer-container a {
+        width: 169px;
+        margin-top: 0px;
+        margin-right: 10px;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width:600px) {
+    .inside-beta-footer-container h1 {
+        margin-left: 20px;
+        width: 375px;
+    }
+
+    .inside-beta-footer-container a {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 650px) {
+    .inside-beta-footer-container h1 {
+        margin-left: 33px;
+        width: 400px;
+    }
+
+    .inside-beta-footer-container a {
+        margin-right: 40px;
+    }
+}
