@@ -119,3 +119,27 @@
         margin-right: 40px;
     }
 }
+
+@media (min-width: 800px) {
+    .outside-beta-footer-container {
+        background-image: url('../assets/shared/desktop/bg-beta.jpg');
+    }
+
+    .inside-beta-footer-container h1 {
+        margin-left: 6%;
+    }
+
+    .inside-beta-footer-container a {
+        margin-right: 6%;
+    }
+}
+
+@media (min-width: 925px) {
+    .inside-beta-footer-container h1 {
+        margin-left: 11.041667%;
+    }
+
+    .inside-beta-footer-container a {
+        margin-right: 11.458333%;
+    }
+}
