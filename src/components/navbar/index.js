@@ -27,7 +27,7 @@ class Navbar extends React.Component {
 
     render () {
         return (
-            <div className='navbar-outside-container'>
+            <div className={this.state.drawerOpen === true ? 'navbar-outside-full-container-small' : 'navbar-outside-container'}>
                 <div className='navbar-inside-container-large'>
                     {/* desktop */}
                     <NavLink to='/' className='logo'>
@@ -53,35 +53,38 @@ class Navbar extends React.Component {
                     </NavLink>
                 </div>
 
-                <div className='navbar-inside-container-small'>
+                <div className={this.state.drawerOpen === true ? 'navbar-outside-container-small' : 'navbar-outside-container-small-drawer-not-open'}>
                     {/* mobile */}
-                    <div>
+                    <div className='navbar-inside-container-small'>
                         <NavLink to='/'>
                             <img src={Logo} alt='Photosnap' />
                         </NavLink>
-                        {this.state.drawerOpen ? <img src={CloseIcon} alt='Close icon' onClick={this.closeDrawer} /> : <img src={Hamburger} alt='Hamburger' onClick={this.openDrawer} />}
+                        {this.state.drawerOpen === true ? <img src={CloseIcon} alt='Close icon' onClick={this.closeDrawer} /> : <img src={Hamburger} alt='Hamburger' onClick={this.openDrawer} />}
                     </div>
 
-                    <div>
-                        <nav>
-                            <NavLink to='/stories'>
-                                Stories
-                            </NavLink>
+                    {this.state.drawerOpen === true ? 
+                        <div className='navbar-drawer-container'>
+                            <nav>
+                                <NavLink to='/stories'>
+                                    Stories
+                                </NavLink>
 
-                            <NavLink to='/features'>
-                                Features
-                            </NavLink>
+                                <NavLink to='/features'>
+                                    Features
+                                </NavLink>
 
-                            <NavLink to='/pricing'>
-                                Pricing
+                                <NavLink to='/pricing'>
+                                    Pricing
+                                </NavLink>
+                            </nav>
+                            
+                            <div className='line-div' />
+
+                            <NavLink to='/'>
+                                Get an invite
                             </NavLink>
-                        </nav>
-                        
-                        <div className='line-div' />
-                        <NavLink to='/'>
-                            Get an invite
-                        </NavLink>
-                    </div>
+                        </div>
+                    : null }
                 </div>
             </div>
         )
