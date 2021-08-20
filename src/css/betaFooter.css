@@ -1,0 +1,57 @@
+.outside-beta-footer-container {
+    width: 100%;
+    height: 288px;
+    padding: 0px 8.66667%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/shared/mobile/bg-beta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beta-footer-gradient-div {
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(1.3deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+
+.inside-beta-footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+}
+
+.inside-beta-footer-container h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 40px;
+    letter-spacing: 3.15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.inside-beta-footer-container a {
+    width: 100%;
+    margin-top: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 2.5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inside-beta-footer-container a img {
+    margin-left: 16px;
+}
