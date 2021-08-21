@@ -1,28 +1,24 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../assets/shared/desktop/logo.svg';
-import Facebook from '../../assets/shared/desktop/facebook.svg';
-import Youtube from '../../assets/shared/desktop/youtube.svg';
-import Twitter from '../../assets/shared/desktop/twitter.svg'
-import Pinterest from '../../assets/shared/desktop/pinterest.svg';
-import Instagram from '../../assets/shared/desktop/instagram.svg';
-import RightArrow from '../../assets/shared/desktop/arrow.svg';
+import Logo from '../../assets/shared/desktop/white-logo.svg';
+import RightArrow from '../../assets/shared/desktop/white-arrow.svg';
+
+import '../../css/footer.css';
 
 class Footer extends React.Component {
     render () {
         return (
-            <div>
-                <div>
-                    {/* desktop */}
-                    <div>
-                        <img src={Logo} alt='Photosnap' />
+            <div className='outside-footer-container'>
+                <div className='desktop-footer-container'>
+                    <div className='desktop-footer-container-left'>
+                        <img src={Logo} alt='Photosnap' className='footer-logo' />
 
-                        <div>
-                            <img src={Facebook} alt='Facebook' />
-                            <img src={Youtube} alt='Youtube' />
-                            <img src={Twitter} alt='Twitter' />
-                            <img src={Pinterest} alt='Pinterest' />
-                            <img src={Instagram} alt='Instagram' />
+                        <div className='social-media-container'>
+                            <div className='footer-icon footer-facebook-icon' />
+                            <div className='footer-icon footer-youtube-icon' />
+                            <div className='footer-icon footer-twitter-icon' />
+                            <div className='footer-icon footer-pinterest-icon' />
+                            <div className='footer-icon footer-instagram-icon' />
                         </div>
                     </div>
 
@@ -44,9 +40,9 @@ class Footer extends React.Component {
                         </NavLink>
                     </nav>
 
-                    <div>
+                    <div className='desktop-footer-container-right'>
                         <div>
-                            <NavLink to='/'>
+                            <NavLink to='/' className='footer-invite-nav-link'>
                                 Get an invite
                                 <img src={RightArrow} alt='Right Arrow' />
                             </NavLink>
@@ -56,87 +52,81 @@ class Footer extends React.Component {
                     </div>
                 </div>
 
-                <div>
-                    {/* tablet */}
-                    <div>
-                        <img src={Logo} alt='Photosnap' />
+                <div className='tablet-footer-container'>
+                    <div className='tablet-footer-container-top'>
+                        <img src={Logo} alt='Photosnap' className='footer-logo' />
 
-                        <NavLink to='/'>
+                        <NavLink to='/' className='footer-invite-nav-link'>
                             Get an invite
                             <img src={RightArrow} alt='Right Arrow' />
                         </NavLink>
                     </div>
 
-                    <div>
-                        <nav>
-                            <NavLink to='/'>
-                                Home
-                            </NavLink>
+                    <nav>
+                        <NavLink to='/'>
+                            Home
+                        </NavLink>
 
-                            <NavLink to='/stories'>
-                                Stories
-                            </NavLink>
+                        <NavLink to='/stories'>
+                            Stories
+                        </NavLink>
 
-                            <NavLink to='/features'>
-                                Features
-                            </NavLink>
+                        <NavLink to='/features'>
+                            Features
+                        </NavLink>
 
-                            <NavLink to='/pricing'>
-                                Pricing
-                            </NavLink>
-                        </nav>
-                    </div>
+                        <NavLink to='/pricing'>
+                            Pricing
+                        </NavLink>
+                    </nav>
 
-                    <div>
-                        <div>
-                            <img src={Facebook} alt='Facebook' />
-                            <img src={Youtube} alt='Youtube' />
-                            <img src={Twitter} alt='Twitter' />
-                            <img src={Pinterest} alt='Pinterest' />
-                            <img src={Instagram} alt='Instagram' />
+                    <div className='tablet-footer-container-bottom'>
+                        <div className='social-media-container'>
+                            <div className='footer-icon footer-facebook-icon' />
+                            <div className='footer-icon footer-youtube-icon' />
+                            <div className='footer-icon footer-twitter-icon' />
+                            <div className='footer-icon footer-pinterest-icon' />
+                            <div className='footer-icon footer-instagram-icon' />
                         </div>
-                        <span>Copyright 2019. All Rights Reserved</span>
+                        <span className='footer-copyright-text'>Copyright 2019. All Rights Reserved</span>
                     </div>
                 </div>
 
-                <div>
-                    {/* mobile */}
-                    <img src={Logo} alt='Photosnap' />
+                <div className='mobile-footer-container'>
+                    <img src={Logo} alt='Photosnap' className='footer-logo' />
 
-                    <div>
-                        <img src={Facebook} alt='Facebook' />
-                        <img src={Youtube} alt='Youtube' />
-                        <img src={Twitter} alt='Twitter' />
-                        <img src={Pinterest} alt='Pinterest' />
-                        <img src={Instagram} alt='Instagram' />
+                    <div className='social-media-container'>
+                        <div className='footer-icon footer-facebook-icon' />
+                        <div className='footer-icon footer-youtube-icon' />
+                        <div className='footer-icon footer-twitter-icon' />
+                        <div className='footer-icon footer-pinterest-icon' />
+                        <div className='footer-icon footer-instagram-icon' />
                     </div>
 
-                    <div>
-                        <nav>
-                            <NavLink to='/'>
-                                Home
-                            </NavLink>
+                    <nav>
+                        <NavLink to='/'>
+                            Home
+                        </NavLink>
 
-                            <NavLink to='/stories'>
-                                Stories
-                            </NavLink>
+                        <NavLink to='/stories'>
+                            Stories
+                        </NavLink>
 
-                            <NavLink to='/features'>
-                                Features
-                            </NavLink>
+                        <NavLink to='/features'>
+                            Features
+                        </NavLink>
 
-                            <NavLink to='/pricing'>
-                                Pricing
-                            </NavLink>
-                        </nav>
-                    </div>
+                        <NavLink to='/pricing'>
+                            Pricing
+                        </NavLink>
+                    </nav>
 
-                    <NavLink to='/'>
+                    <NavLink to='/' className='footer-invite-nav-link'>
                         Get an invite
                         <img src={RightArrow} alt='Right Arrow' />
                     </NavLink>
 
-                    <span>Copyright 2019. All Rights Reserved</span>
+                    <span className='footer-copyright-text'>Copyright 2019. All Rights Reserved</span>
                 </div>
             </div>
         )
