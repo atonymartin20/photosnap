@@ -31,7 +31,12 @@
     margin-bottom: 66px;
 }
 
-.homepage-top-text-div h1 {
+.homepage-spacing-div {
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-top-text-div .homepage-spacing-div h1 {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -43,7 +48,7 @@
     margin-bottom: 16px;
 }
 
-.homepage-top-text-div span {
+.homepage-spacing-div span {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -51,8 +56,7 @@
     line-height: 25px;
     color: #FFFFFF;
     mix-blend-mode: normal;
-    opacity: 0.8;
-    margin-bottom: 23px;
+    opacity: 0.6;
 }
 
 .homepage-nav-link {
@@ -70,9 +74,10 @@
     text-decoration: none;
 }
 
-.homepage-top-text-div .homepage-nav-link {
+.homepage-top-text-div .homepage-spacing-div .homepage-nav-link {
     width: 168px;
     color: #FFFFFF;
+    margin-top: 23px;
 }
 
 .homepage-create-image-desktop {
@@ -337,4 +342,67 @@
 
 .homepage-features-large-card {
     height: 236px;
+}
+
+@media (min-width: 450px) {
+    .homepage-create-image-mobile {
+        height: 340px;
+    }
+
+    .homepage-beautiful-image-mobile {
+        height: 315px;
+    }
+
+    .homepage-designed-image-mobile {
+        height: 315px;
+    }
+}
+
+@media (min-width: 525px) {
+    .homepage-create-image-mobile {
+        height: 390px;
+    }
+
+    .homepage-beautiful-image-mobile {
+        height: 365px;
+    }
+
+    .homepage-designed-image-mobile {
+        height: 365px;
+    }
+}
+
+@media (min-width: 575px) {
+    .homepage-top-portion-div {
+        flex-direction: row;
+        height: 650px;
+    }
+
+    .homepage-top-text-div {
+        height: 650px;
+    }
+
+    .homepage-create-image-mobile {
+        display: none;
+    }
+
+    .homepage-beautiful-image-mobile {
+        display: none;
+    }
+
+    .homepage-designed-image-mobile {
+        display: none;
+    }
+
+    .homepage-create-image-tablet {
+        display: block;
+    }
+
+    .homepage-beautiful-image-tablet {
+        display: block;
+    }
+
+    .homepage-designed-image-tablet {
+        display: block;
+    }
 }
