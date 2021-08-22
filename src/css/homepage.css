@@ -6,4 +6,199 @@
 .homepage-inside-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.homepage-top-portion-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.homepage-top-text-div {
+    width: 100%;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 6.4% 72px 8.8%;
+    background-color: #000000;
+}
+
+.homepage-linear-gradient {
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(1.3deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    margin-bottom: 66px;
+}
+
+.homepage-top-text-div h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.homepage-top-text-div span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 23px;
+}
+
+.homepage-nav-link {
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.homepage-top-text-div .homepage-nav-link {
+    width: 168px;
+    color: #FFFFFF;
+}
+
+.homepage-create-image-desktop {
+    display: none;
+}
+
+.homepage-create-image-tablet {
+    display: none;
+}
+
+.homepage-create-image-mobile {
+    width: 100%;
+    height: 294px;
+}
+
+.homepage-second-section-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-beautiful-image-desktop {
+    display: none;
+}
+
+.homepage-beautiful-image-tablet {
+    display: none;
+}
+
+.homepage-beautiful-image-mobile {
+    width: 100%;
+    height: 271px;
+}
+
+.homepage-second-section-text-div {
+    width: 100%;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 6.4% 72px 8.8%;
+    background: #FFFFFF;
+}
+
+.homepage-second-section-text-div h1 {
+    width: 275px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 40px;  
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.homepage-second-section-text-div span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 23px;
+}
+
+.homepage-second-section-text-div .homepage-nav-link {
+    width: 205px;
+    color: #000000;
+}
+
+.homepage-third-section-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.homepage-third-section-text-div {
+    width: 100%;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    padding: 92px 6.4% 92px 8.8%;
+    background: #FFFFFF;
+}
+
+.homepage-third-section-text-div h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 40px;  
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.homepage-third-section-text-div span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 23px;
+}
+
+.homepage-third-section-text-div .homepage-nav-link {
+    width: 205px;
+    color: #000000;
+}
+
+.homepage-designed-image-desktop {
+    display: none;
+}
+
+.homepage-designed-image-tablet {
+    display: none;
+}
+
+.homepage-designed-image-mobile {
+    width: 100%;
+    height: 271px;
 }
