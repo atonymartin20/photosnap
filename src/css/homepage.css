@@ -202,3 +202,139 @@
     width: 100%;
     height: 271px;
 }
+
+.homepage-stories-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-story-card {
+    width: 100%;
+    height: 375px;
+}
+
+.homepage-story-card h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.homepage-story-card span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 4px;
+}
+
+.homepage-story-card .horizontal-line-div {
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-top: 16px;
+}
+
+.homepage-story-card .homepage-nav-link {
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.homepage-story-darken-card {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%);
+    padding: 40px 8.66667% 40px 8.66667%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.the-mountains-homepage-story-card {
+    background-image: url('../assets/stories/mobile/mountains.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sunset-cityscapes-homepage-story-card {
+    background-image: url('../assets/stories/mobile/cityscapes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eighteen-day-voyage-homepage-story-card {
+    background-image: url('../assets/stories/mobile/18-days-voyage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.architecturals-homepage-story-card {
+    background-image: url('../assets/stories/mobile/architecturals.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-features-container {
+    width: 100%;
+    height: 962px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8.66667% 80px 8.66667%;
+}
+
+.homepage-features-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.homepage-features-card img {
+    margin-bottom: auto;
+}
+
+.homepage-features-card h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.homepage-features-card span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 16px;
+}
+
+.homepage-features-small-card {
+    height: 218px;
+}
+
+.homepage-features-large-card {
+    height: 236px;
+}
