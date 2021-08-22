@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Navbar from '../navbar';
 import Footer from '../footer';
 import RightArrow from '../../assets/shared/desktop/arrow.svg';
+import RightWhiteArrow from '../../assets/shared/desktop/white-arrow.svg';
 import CreateIMGDesktop from '../../assets/home/desktop/create-and-share.jpg';
 import CreateIMGTablet from '../../assets/home/tablet/create-and-share.jpg';
 import CreateIMGMobile from '../../assets/home/mobile/create-and-share.jpg';
@@ -17,108 +18,125 @@ import ResponsiveIMG from '../../assets/features/desktop/responsive.svg';
 import NoLimitIMG from '../../assets/features/desktop/no-limit.svg';
 import EmbedIMG from '../../assets/features/desktop/embed.svg';
 
+import '../../css/homepage.css';
+
 class Homepage extends React.Component {
     render () {
         return (
-            <div>
+            <div className='homepage-outside-container'>
                 <Navbar />
-                <div>
-                    <div>
-                        <div>
-                            <h1>Create and share your photo Stories.</h1>
+                <div className='homepage-inside-container'>
+                    <div className='homepage-top-portion-div'>
+                        <div className='homepage-top-text-div'>
+                            <div className='homepage-linear-gradient' />
+                            <div className='homepage-spacing-div'>
+                                <h1>Create and share your photo Stories.</h1>
 
-                            <span>Photosnap is a platform for photographers and visual storytellers. We make it 
-                            easy to share photos, tell stories and connect with others.</span>
+                                <span>Photosnap is a platform for photographers and visual storytellers. We make it 
+                                easy to share photos, tell stories and connect with others.</span>
 
-                            <NavLink to='/'>
-                                Get an invite
-                                <img src={RightArrow} alt='Right Arrow' />
-                            </NavLink>
+                                <NavLink to='/' className='homepage-nav-link'>
+                                    Get an invite
+                                    <img src={RightWhiteArrow} alt='Right Arrow' />
+                                </NavLink>
+                            </div>
                         </div>
 
-                        <img src={CreateIMGDesktop} alt='Man looking off dock' />
-                        <img src={CreateIMGTablet} alt='Man looking off dock' />
-                        <img src={CreateIMGMobile} alt='Man looking off dock' />
+                        <img src={CreateIMGDesktop} alt='Man looking off dock' className='homepage-create-image-desktop' />
+                        <img src={CreateIMGTablet} alt='Man looking off dock' className='homepage-create-image-tablet' />
+                        <img src={CreateIMGMobile} alt='Man looking off dock' className='homepage-create-image-mobile' />
                     </div>
 
-                    <div>
-                        <img src={BeautifulIMGDesktop} alt='Desk' />
-                        <img src={BeautifulIMGTablet} alt='Desk' />
-                        <img src={BeautifulIMGMobile} alt='Desk' />
+                    <div className='homepage-second-section-div'>
+                        <img src={BeautifulIMGDesktop} alt='Desk' className='homepage-beautiful-image-desktop' />
+                        <img src={BeautifulIMGTablet} alt='Desk' className='homepage-beautiful-image-tablet' />
+                        <img src={BeautifulIMGMobile} alt='Desk' className='homepage-beautiful-image-mobile' />
 
-                        <div>
+                        <div className='homepage-second-section-text-div'>
                             <h1>Beautiful stories every time</h1>
 
                             <span>We provide design templates to ensure your stories look terrific. Easily add 
                                 photos, text, embed maps and media from other networks. Then share your story with everyone.
                             </span>
 
-                            <NavLink to='/stories'>
+                            <NavLink to='/stories' className='homepage-nav-link'>
                                 View the stories
                                 <img src={RightArrow} alt='Right Arrow' />
                             </NavLink>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div className='homepage-third-section-div'>
+                        <div className='homepage-third-section-text-div'>
                             <h1>Designed for everyone</h1>
 
                             <span>Photosnap can help you create stories that resonate with your audience.  Our 
                                 tool is designed for photographers of all levels, brands, businesses you name it.
                             </span>
 
-                            <NavLink to='/stories'>
+                            <NavLink to='/stories' className='homepage-nav-link'>
                                 View the stories
                                 <img src={RightArrow} alt='Right Arrow' />
                             </NavLink>
                         </div>
 
-                        <img src={DesignedIMGDesktop} alt='Man with camera' />
-                        <img src={DesignedIMGTablet} alt='Man with camera' />
-                        <img src={DesignedIMGMobile} alt='Man with camera' />
+                        <img src={DesignedIMGDesktop} alt='Man with camera' className='homepage-designed-image-desktop'/>
+                        <img src={DesignedIMGTablet} alt='Man with camera' className='homepage-designed-image-tablet' />
+                        <img src={DesignedIMGMobile} alt='Man with camera' className='homepage-designed-image-mobile' />
                     </div>
 
-                    <div>
-                        <div>
-                            <h3>The Mountains</h3>
-                            <span>by John Appleseed</span>
-                            <NavLink to='/stories'>
-                                Read Story
-                                <img src={RightArrow} alt='Right Arrow' />
-                            </NavLink>
+                    <div className='homepage-stories-container'>
+                        <div className='homepage-story-card the-mountains-homepage-story-card'>
+                            <div className='homepage-story-darken-card'>
+                                <h3>The Mountains</h3>
+                                <span>by John Appleseed</span>
+                                <div className='horizontal-line-div' />
+                                <NavLink to='/stories' className='homepage-nav-link'>
+                                    Read Story
+                                    <img src={RightWhiteArrow} alt='Right Arrow' />
+                                </NavLink>
+                            </div>
                         </div>
 
-                        <div>
-                            <h3>Sunset Cityscapes</h3>
-                            <span>by Benjamin Cruz</span>
-                            <NavLink to='/stories'>
-                                Read Story
-                                <img src={RightArrow} alt='Right Arrow' />
-                            </NavLink>
+                        <div className='homepage-story-card sunset-cityscapes-homepage-story-card'>
+                            <div className='homepage-story-darken-card'>
+                                <h3>Sunset Cityscapes</h3>
+                                <span>by Benjamin Cruz</span>
+                                <div className='horizontal-line-div' />
+                                <NavLink to='/stories' className='homepage-nav-link'>
+                                    Read Story
+                                    <img src={RightWhiteArrow} alt='Right Arrow' />
+                                </NavLink>
+                            </div>
                         </div>
 
-                        <div>
-                            <h3>18 Days Voyage</h3>
-                            <span>by Alexei Borodin</span>
-                            <NavLink to='/stories'>
-                                Read Story
-                                <img src={RightArrow} alt='Right Arrow' />
-                            </NavLink>
+                        <div className='homepage-story-card eighteen-day-voyage-homepage-story-card'>
+                            <div className='homepage-story-darken-card'>
+                                <h3>18 Days Voyage</h3>
+                                <span>by Alexei Borodin</span>
+                                <div className='horizontal-line-div' />
+                                <NavLink to='/stories' className='homepage-nav-link'>
+                                    Read Story
+                                    <img src={RightWhiteArrow} alt='Right Arrow' />
+                                </NavLink>
+                            </div>
                         </div>
 
-                        <div>
-                            <h3>Architecturals</h3>
-                            <span>by Samantha Brooke</span>
-                            <NavLink to='/stories'>
-                                Read Story
-                                <img src={RightArrow} alt='Right Arrow' />
-                            </NavLink>
+                        <div className='homepage-story-card architecturals-homepage-story-card'>
+                            <div className='homepage-story-darken-card'>
+                                <h3>Architecturals</h3>
+                                <span>by Samantha Brooke</span>
+                                <div className='horizontal-line-div' />
+                                <NavLink to='/stories' className='homepage-nav-link'>
+                                    Read Story
+                                    <img src={RightWhiteArrow} alt='Right Arrow' />
+                                </NavLink>
+                            </div>
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div className='homepage-features-container'>
+                        <div className='homepage-features-card homepage-features-large-card'>
                             <img src={ResponsiveIMG} alt='Responsive logo' />
                             <h3>100% Responsive</h3>
 
@@ -126,7 +144,7 @@ class Homepage extends React.Component {
                             look beautiful on any screen.</span>
                         </div>
 
-                        <div>
+                        <div className='homepage-features-card homepage-features-small-card'>
                             <img src={NoLimitIMG} alt='Infinity sign' />
                             <h3>No Photo Upload Limit</h3>
 
@@ -134,8 +152,8 @@ class Homepage extends React.Component {
                             share all of your stories in one go.</span>
                         </div>
 
-                        <div>
-                            <img src={EmbedIMG} alt='Embed image' />
+                        <div className='homepage-features-card homepage-features-large-card'>
+                            <img src={EmbedIMG} alt='Embed icon' />
                             <h3>Available to Embed</h3>
 
                             <span>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, 
