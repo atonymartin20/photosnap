@@ -440,12 +440,14 @@
     }
 
     .homepage-second-section-text-div {
+        width: calc(100% - 273px);
         height: 100%;
         justify-content: center;
-        padding: 0px 6.4% 0px 8.8%;
+        padding: 0px 7.03125% 0px 7.03125%;
     }
 
     .homepage-second-section-text-div h1 {
+        width: 100%;
         font-size: 4.0rem;
         line-height: 48px;  
         letter-spacing: 4.16667px;
@@ -461,9 +463,10 @@
     }
     
     .homepage-third-section-text-div {
+        width: calc(100% - 273px);
         height: 100%;
         justify-content: center;
-        padding: 0px 6.4% 0px 8.8%;
+        padding: 0px 7.03125% 0px 7.03125%;
     }
 
     .homepage-third-section-text-div h1 {
@@ -474,5 +477,40 @@
 
     .homepage-third-section-text-div span {
         margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 600px) {
+    .homepage-stories-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .homepage-story-card {
+        width: 50%;
+        height: 500px;
+    }
+
+    .homepage-features-container {
+        width: 100%;
+        height: 1015px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 120px 8.66667% 120px 8.66667%;
+    }
+
+    .homepage-features-card {
+        width: 100%;
+        max-width: 457px;
+    }
+
+    .homepage-features-large-card {
+        height: 211px;
+    }
+
+    .homepage-features-small-card {
+        height: 193px;
     }
 }
