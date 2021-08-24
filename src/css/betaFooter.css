@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.inside-beta-footer-container a:hover {
+    text-decoration: underline;
+}
+
 .inside-beta-footer-container a img {
     margin-left: 16px;
 }
