@@ -10,30 +10,32 @@ import '../../css/stories.css';
 class Stories extends React.Component {
     render () {
         return (
-            <div>
+            <div className='stories-outside-container'>
                 <Navbar />
 
-                <div className='stories-outside-container'>
+                <div className='stories-inside-container'>
                     <div className='moon-img-small'>
                         <div className='darken-img-div' />
                     </div>
 
                     <div className='stories-featured-stories-container'>
-                        <h4>Last month's featured story</h4>
-                        <h1>Hazy full moon of Appalachia</h1>
-                        <div>
-                            <span className='stories-opacity-date-span'>March 2nd 2020</span>
-                            <span>by John Appleseed</span>
+                        <div className='stories-featured-story-darken-div'>
+                            <h4>Last month's featured story</h4>
+                            <h1>Hazy full moon of Appalachia</h1>
+                            <div>
+                                <span className='stories-opacity-date-span'>March 2nd 2020</span>
+                                <span>by John Appleseed</span>
+                            </div>
+
+                            <span className='featured-story-span'>The dissected plateau area, while not actually made up of geological mountains, 
+                            is popularly called "mountains," especially in eastern Kentucky and West Virginia, 
+                            and while the ridges are not high, the terrain is extremely rugged.</span>
+
+                            <NavLink to='/stories' className='featured-story-nav-link'>
+                                Read the story
+                                <img src={RightWhiteArrow} alt='Right Arrow' />
+                            </NavLink>
                         </div>
-
-                        <span className='featured-story-span'>The dissected plateau area, while not actually made up of geological mountains, 
-                        is popularly called "mountains," especially in eastern Kentucky and West Virginia, 
-                        and while the ridges are not high, the terrain is extremely rugged.</span>
-
-                        <NavLink to='/stories' className='featured-story-nav-link'>
-                            Read the story
-                            <img src={RightWhiteArrow} alt='Right Arrow' />
-                        </NavLink>
                     </div>
 
                     <div className='story-card-container'>

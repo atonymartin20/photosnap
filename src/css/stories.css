@@ -444,3 +444,14 @@
         background-image: url('../assets/stories/desktop/land-of-dreams.jpg');
     }
 }
+
+@media (min-width: 1000px) {
+    .stories-featured-stories-container {
+        background-image: url('../assets/stories/desktop/moon-of-appalacia.jpg');
+    }
+
+    .stories-story-card {
+        width: 25%;
+        height: 500px;
+    }
+}
