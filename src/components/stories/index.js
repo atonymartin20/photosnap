@@ -50,6 +50,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card sunset-cityscapes-story-card'>
@@ -63,6 +64,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card eighteen-days-voyage-story-card'>
@@ -76,6 +78,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card architecturals-story-card'>
@@ -89,6 +92,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card world-tour-2019-story-card'>
@@ -102,6 +106,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card unforeseen-corners-story-card'>
@@ -115,6 +120,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card king-on-africa-story-card'>
@@ -128,6 +134,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card the-trip-to-nowhere-story-card'>
@@ -141,6 +148,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card rage-of-the-sea-story-card'>
@@ -154,6 +162,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card running-free-story-card'>
@@ -167,6 +176,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card behind-the-waves-story-card'>
@@ -180,6 +190,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card calm-waters-story-card'>
@@ -193,6 +204,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card the-milky-way-story-card'>
@@ -206,6 +218,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card night-at-the-dark-forest-story-card'>
@@ -219,6 +232,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card somwarpets-beauty-story-card'>
@@ -232,6 +246,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='stories-story-card land-of-dreams-story-card'>
@@ -245,6 +260,7 @@ class Stories extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
                     </div>
                 </div>
