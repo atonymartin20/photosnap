@@ -19,12 +19,3 @@ This project was designed in a mobile first responsive design.
 * React
 * Redux
 * Vanilla CSS
-
-
-
-#### Pricing
-
-- The "Pick a plan" call-to-actions in the pricing tiers should be anchor tags, but they don't link anywhere. If this was a real website, this could link to a checkout form.
-
-## Building your project
-1. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
