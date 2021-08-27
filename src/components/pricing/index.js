@@ -120,69 +120,131 @@ class Pricing extends React.Component {
                     <div className='pricing-checkmark-outside-container'>
                         <h1>Compare</h1>
 
-                        <div className='pricing-checkmark-inside-container-desktop'>
-                            <div>
-                                <h4>The Features</h4>
-                                <h4>Basic</h4>
-                                <h4>Pro</h4>
-                                <h4>Business</h4>
+                        <div className='pricing-checkmark-inside-container-large'>
+                            <div className='pricing-checkmark-inside-container-large-labels'>
+                                <h4 className='pricing-checkmark-inside-container-large-title'>The Features</h4>
+                                <h4 className='pricing-checkmark-inside-container-large-basic'>Basic</h4>
+                                <h4 className='pricing-checkmark-inside-container-large-pro'>Pro</h4>
+                                <h4 className='pricing-checkmark-inside-container-large-business'>Business</h4>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-dark-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Unlimited Story Posting</h4>
-                                <img src={CheckIcon} alt='checkmark' />
-                                <img src={CheckIcon} alt='checkmark' />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
+
+                                <div className='pricing-checkmark-inside-container-large-pro'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Unlimited Photo Upload</h4>
-                                <img src={CheckIcon} alt='checkmark' />
-                                <img src={CheckIcon} alt='checkmark' />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
+
+                                <div className='pricing-checkmark-inside-container-large-pro'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Embedding Custom Content</h4>
-                                <div />
-                                <img src={CheckIcon} alt='checkmark' />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic' />
+
+                                <div className='pricing-checkmark-inside-container-large-pro'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Customize Metadata</h4>
-                                <div />
-                                <img src={CheckIcon} alt='checkmark' />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic' />
+
+                                <div className='pricing-checkmark-inside-container-large-pro'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Advanced Metrics</h4>
-                                <div />
-                                <div />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic' />
+
+                                <div className='pricing-checkmark-inside-container-large-pro' />
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Photo Downloads</h4>
-                                <div />
-                                <div />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic' />
+
+                                <div className='pricing-checkmark-inside-container-large-pro' />
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Search Engine Indexing</h4>
-                                <div />
-                                <div />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic' />
+
+                                <div className='pricing-checkmark-inside-container-large-pro' />
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
 
-                            <div>
+                            <div className='pricing-checkmark-inside-container-grey-line' />
+
+                            <div className='pricing-checkmark-inside-container-large-card'>
                                 <h4>Custom Analytics</h4>
-                                <div />
-                                <div />
-                                <img src={CheckIcon} alt='checkmark' />
+                                <div className='pricing-checkmark-inside-container-large-basic' />
+
+                                <div className='pricing-checkmark-inside-container-large-pro' />
+
+                                <div className='pricing-checkmark-inside-container-large-business'>
+                                    <img src={CheckIcon} alt='checkmark' className='pricing-checkmark-icon' />
+                                </div>
                             </div>
+
+                            <div className='pricing-checkmark-inside-container-grey-line' />
                         </div>
 
                         <div className='pricing-checkmark-inside-container-mobile'>
