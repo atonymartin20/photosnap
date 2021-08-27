@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #FFFFFF;
 }
 
 .pricing-inside-top-container {
@@ -285,4 +286,143 @@
 .pricing-tier-black-spacing-div .pricing-pick-plan-button {
     background: #FFFFFF;
     color: #000000;
+}
+
+.pricing-checkmark-outside-container {
+    width: 100%;
+    height: 952px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+    padding: 0px 7.6% 0px 7.6%;
+    background-color: #FFFFFF;
+}
+
+.pricing-checkmark-outside-container h1 {
+    display: none;
+}
+
+.pricing-checkmark-inside-container-desktop {
+    display: none;
+}
+
+.pricing-checkmark-inside-container-mobile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+}
+
+.pricing-checkmark-inside-container-mobile h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.pricing-checkmark-inside-container-dark-line {
+    margin-top: 23px;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.pricing-checkmark-inside-container-mobile-card {
+    width: 100%;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    padding: 23px 14.46541% 24px 0px;
+}
+
+.pricing-checkmark-inside-container-mobile-card h4 {
+    margin-bottom: 16px;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container {
+    width: 100%;
+    height: 33px;
+    display: flex;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container-basic {
+    width: 38px;
+    height: 100%;
+    margin-right: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container-basic h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.0rem;
+    line-height: 13px;
+    letter-spacing: 1.66667px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 0px;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container-pro {
+    width: 26px;
+    height: 100%;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container-pro h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.0rem;
+    line-height: 13px;
+    letter-spacing: 1.66667px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 0px;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container-business {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-checkmark-inside-container-mobile-card-checkmark-container-business h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.0rem;
+    line-height: 13px;
+    letter-spacing: 1.66667px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 0px;
+}
+
+.pricing-checkmark-icon {
+    width: 16px;
+    height: 12px;
+}
+
+.pricing-checkmark-inside-container-grey-line {
+    width: 100%;
+    height: 1px;
+    background-color: #DFDFDF;
 }
