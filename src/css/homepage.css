@@ -80,6 +80,10 @@
     margin-top: 23px;
 }
 
+.homepage-top-text-div .homepage-spacing-div .homepage-nav-link:hover {
+    text-decoration: underline;
+}
+
 .homepage-create-image-desktop {
     display: none;
 }
@@ -151,6 +155,10 @@
     color: #000000;
 }
 
+.homepage-second-section-text-div .homepage-nav-link:hover {
+    text-decoration: underline;
+}
+
 .homepage-third-section-div {
     width: 100%;
     display: flex;
@@ -195,6 +203,10 @@
     color: #000000;
 }
 
+.homepage-third-section-text-div .homepage-nav-link:hover {
+    text-decoration: underline;
+}
+
 .homepage-designed-image-desktop {
     display: none;
 }
@@ -217,6 +229,19 @@
 .homepage-story-card {
     width: 100%;
     height: 375px;
+    cursor: pointer;
+}
+
+.homepage-story-card:hover {
+    margin-top: -24px;
+}
+
+.homepage-story-card:hover .story-gradient {
+    display: block;
+}
+
+.homepage-story-card:hover .homepage-story-darken-card {
+    height: 369px;
 }
 
 .homepage-story-card h3 {
@@ -261,6 +286,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.story-gradient {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(1.0deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    display: none;
 }
 
 .the-mountains-homepage-story-card {
@@ -491,6 +523,10 @@
         height: 500px;
     }
 
+    .homepage-story-card:hover .homepage-story-darken-card {
+        height: 494px;
+    }
+
     .homepage-features-container {
         width: 100%;
         height: 1015px;
@@ -601,5 +637,61 @@
     .homepage-story-card {
         width: 25%;
         height: 500px;
+    }
+
+    .homepage-features-container {
+        flex-direction: row;
+        height: 476px;
+        padding: 0px 11.45833% 0px 11.45833%;
+        align-items: center;
+    }
+
+    .homepage-features-large-card {
+        height: 236px;
+    }
+
+    .homepage-features-small-card {
+        height: 236px;
+        padding-top: 18px;
+    }
+
+    .homepage-features-card {
+        width: 31.532%;
+        justify-content: flex-start;
+    }
+   
+    .homepage-features-card img {
+        margin-bottom: 0px;
+    }
+
+    .homepage-features-large-card img {
+        margin-bottom: 48px;
+    }
+
+    .homepage-features-small-card img {
+        margin-bottom: 66px;
+    }
+    
+    .homepage-features-card h3 {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .homepage-features-card span {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-top: 16px;
     }
 }

@@ -1,0 +1,484 @@
+.stories-outside-container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.stories-inside-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.moon-img-small {
+    width: 100%;
+    height: 317px;
+    background-image: url('../assets/stories/mobile/moon-of-appalacia.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.darken-img-div {
+    width: 100%;
+    height: 100%;
+}
+
+.stories-featured-stories-container {
+    width: 100%;
+    height: 495px;
+}
+
+.stories-featured-story-darken-div {
+    width: 100%;
+    height: 100%;
+    padding: 48px 7.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #000000;
+}
+
+.stories-featured-stories-container h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 16px;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.stories-featured-stories-container h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.stories-featured-stories-container div .stories-opacity-date-span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 17px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-right: 9px;
+    margin-bottom: 24px;
+}
+
+.stories-featured-stories-container div span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.stories-featured-stories-container .featured-story-span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.featured-story-nav-link {
+    width: 184px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.featured-story-nav-link:hover {
+    text-decoration: underline;
+}
+
+.story-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stories-story-card {
+    width: 100%;
+    height: 375px;
+}
+
+.stories-story-card:hover {
+    margin-top: -24px;
+}
+
+.stories-story-card:hover .story-gradient {
+    display: block;
+}
+
+.stories-story-card:hover .stories-darken-story-card {
+    height: 369px;
+}
+
+.stories-darken-story-card {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%);
+    padding: 40px 11.066667% 40px 11.066667%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.story-card-date-span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.stories-darken-story-card h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.stories-darken-story-card span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.story-card-line-div {
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-top: 16px;
+}
+
+.stories-darken-story-card .story-card-nav-link {
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-gradient {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(1.0deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    display: none;
+}
+
+.the-mountains-story-card {
+    background-image: url('../assets/stories/mobile/mountains.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sunset-cityscapes-story-card {
+    background-image: url('../assets/stories/mobile/cityscapes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eighteen-days-voyage-story-card {
+    background-image: url('../assets/stories/mobile/18-days-voyage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.architecturals-story-card {
+    background-image: url('../assets/stories/mobile/architecturals.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.world-tour-2019-story-card {
+    background-image: url('../assets/stories/mobile/world-tour.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.unforeseen-corners-story-card {
+    background-image: url('../assets/stories/mobile/unforeseen-corners.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.king-on-africa-story-card {
+    background-image: url('../assets/stories/mobile/king-on-africa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.the-trip-to-nowhere-story-card {
+    background-image: url('../assets/stories/mobile/trip-to-nowhere.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rage-of-the-sea-story-card {
+    background-image: url('../assets/stories/mobile/rage-of-the-sea.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.running-free-story-card {
+    background-image: url('../assets/stories/mobile/running-free.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.behind-the-waves-story-card {
+    background-image: url('../assets/stories/mobile/behind-the-waves.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calm-waters-story-card {
+    background-image: url('../assets/stories/mobile/calm-waters.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.the-milky-way-story-card {
+    background-image: url('../assets/stories/mobile/milky-way.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.night-at-the-dark-forest-story-card {
+    background-image: url('../assets/stories/mobile/dark-forest.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.somwarpets-beauty-story-card {
+    background-image: url('../assets/stories/mobile/somwarpet.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.land-of-dreams-story-card {
+    background-image: url('../assets/stories/mobile/land-of-dreams.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 470px) {
+    .moon-img-small {
+        height: 367px;
+    }
+}
+
+@media (min-width: 525px) {
+    .moon-img-small {
+        height: 400px;
+    }
+}
+
+@media (min-width: 600px) {
+    .moon-img-small {
+        display: none;
+    }
+
+    .stories-featured-stories-container {
+        height: 650px;
+        background-image: url('../assets/stories/tablet/moon-of-appalacia.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .stories-featured-story-darken-div {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.1001) 0.27%, rgba(0, 0, 0, 0.1001) 100%);
+        justify-content: center;
+    }
+
+    .stories-featured-stories-container h4 {
+        width: 387px;
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 16px;
+        letter-spacing: 2px; 
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    
+    .stories-featured-stories-container h1 {
+        width: 387px;
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4.0rem;
+        line-height: 48px;
+        letter-spacing: 4.16667px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    
+    .stories-featured-stories-container div .stories-opacity-date-span {
+        width: 387px;
+    }
+    
+    .stories-featured-stories-container div span {
+        width: 387px;
+    }
+    
+    .stories-featured-stories-container .featured-story-span {
+        width: 387px;
+    }
+
+    .story-card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .stories-story-card {
+        width: 50%;
+        height: 500px;
+    }
+
+    .stories-story-card:hover .stories-darken-story-card {
+        height: 494px;
+    }
+
+    .the-mountains-story-card {
+        background-image: url('../assets/stories/desktop/mountains.jpg');
+    }
+    
+    .sunset-cityscapes-story-card {
+        background-image: url('../assets/stories/desktop/cityscapes.jpg');
+    }
+    
+    .eighteen-days-voyage-story-card {
+        background-image: url('../assets/stories/desktop/18-days-voyage.jpg');
+    }
+    
+    .architecturals-story-card {
+        background-image: url('../assets/stories/desktop/architecturals.jpg');
+    }
+    
+    .world-tour-2019-story-card {
+        background-image: url('../assets/stories/desktop/world-tour.jpg');
+    }
+    
+    .unforeseen-corners-story-card {
+        background-image: url('../assets/stories/desktop/unforeseen-corners.jpg');
+    }
+    
+    .king-on-africa-story-card {
+        background-image: url('../assets/stories/desktop/king-on-africa.jpg');
+    }
+    
+    .the-trip-to-nowhere-story-card {
+        background-image: url('../assets/stories/desktop/trip-to-nowhere.jpg');
+    }
+    
+    .rage-of-the-sea-story-card {
+        background-image: url('../assets/stories/desktop/rage-of-the-sea.jpg');
+    }
+    
+    .running-free-story-card {
+        background-image: url('../assets/stories/desktop/running-free.jpg');
+    }
+    
+    .behind-the-waves-story-card {
+        background-image: url('../assets/stories/desktop/behind-the-waves.jpg');
+    }
+    
+    .calm-waters-story-card {
+        background-image: url('../assets/stories/desktop/calm-waters.jpg');
+    }
+    
+    .the-milky-way-story-card {
+        background-image: url('../assets/stories/desktop/milky-way.jpg');
+    }
+    
+    .night-at-the-dark-forest-story-card {
+        background-image: url('../assets/stories/desktop/dark-forest.jpg');
+    }
+    
+    .somwarpets-beauty-story-card {
+        background-image: url('../assets/stories/desktop/somwarpet.jpg');
+    }
+    
+    .land-of-dreams-story-card {
+        background-image: url('../assets/stories/desktop/land-of-dreams.jpg');
+    }
+}
+
+@media (min-width: 1000px) {
+    .stories-featured-stories-container {
+        background-image: url('../assets/stories/desktop/moon-of-appalacia.jpg');
+    }
+
+    .stories-story-card {
+        width: 25%;
+    }
+}

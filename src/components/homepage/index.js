@@ -96,6 +96,7 @@ class Homepage extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='homepage-story-card sunset-cityscapes-homepage-story-card'>
@@ -108,6 +109,7 @@ class Homepage extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='homepage-story-card eighteen-day-voyage-homepage-story-card'>
@@ -120,6 +122,7 @@ class Homepage extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
 
                         <div className='homepage-story-card architecturals-homepage-story-card'>
@@ -132,6 +135,7 @@ class Homepage extends React.Component {
                                     <img src={RightWhiteArrow} alt='Right Arrow' />
                                 </NavLink>
                             </div>
+                            <div className='story-gradient' />
                         </div>
                     </div>
 

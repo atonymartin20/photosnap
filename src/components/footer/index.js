@@ -41,14 +41,12 @@ class Footer extends React.Component {
                     </nav>
 
                     <div className='desktop-footer-container-right'>
-                        <div>
-                            <NavLink to='/' className='footer-invite-nav-link'>
-                                Get an invite
-                                <img src={RightArrow} alt='Right Arrow' />
-                            </NavLink>
+                        <NavLink to='/' className='footer-invite-nav-link'>
+                            Get an invite
+                            <img src={RightArrow} alt='Right Arrow' />
+                        </NavLink>
 
-                            <span>Copyright 2019. All Rights Reserved</span>
-                        </div>
+                        <span className='footer-copyright-text'>Copyright 2019. All Rights Reserved</span>
                     </div>
                 </div>
 
